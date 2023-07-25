@@ -37,15 +37,50 @@
         }
     </style>
 </head>
-<body>
+<body class="font-lato">
     <header>
-
+        <!-- nav section design start  -->
+        <nav class="max-w-screen-xl mx-auto lg:my-10">
+            <div class="flex flex-row-reverse justify-between flex-1 m-3">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    
+                  </div>
+                  <div class=" lg:hidden flex-1 flex items-center gap-2">
+                    <img class="h-10" src="./images/logo.png" alt="">
+                    <a class=" normal-case text-xl lg:text-4xl font-bold lg:text-white">Fruity Oasis</a>
+                  </div>
+            </div>
+            <div class="navbar  lg:bg-[#ef4444] lg:rounded-full">
+                <div class="navbar-start">
+                  <ul class="px-4 hidden lg:flex text-white text-sm">
+                    <li><a class="pr-4">Home</a></li>
+                    <li><a class="pr-4">About Us</a></li>
+                    <li><a class="pr-4">Shop</a></li>
+                    <li><a class="pr-4">All Fruits</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-center hidden lg:inline-flex">
+                    <img src="./images/logo.png" alt="">
+                    <a class=" normal-case text-xl lg:text-4xl font-bold lg:text-white">Fruity Oasis</a>
+                </div>
+                <div class="navbar-end hidden lg:inline-flex">
+                    <input type="text" placeholder="Search" class="input rounded-full" />
+                    <button class="btn btn-ghost btn-circle -ml-11">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                      </button>
+                    </div>
+              </div>
+        </nav>
+        <!-- nav section design end  -->
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
