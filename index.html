@@ -160,6 +160,208 @@
             </div>
         </section>
         <!-- banner bonus fruit section end  -->
+
+        <!-- deal section design start  -->
+        <section class="max-w-screen-xl mx-auto my-10 lg:my-40">
+            <div class="flex flex-col lg:flex-row text-center lg:text-start justify-between ">
+                <div class="">
+                    <h3 class="text-5xl font-extrabold">Deal of the day</h3>
+                    <p class="text-[#a8a29e]">Contrary to popular belief, is not simply random text. It has roots in a piece of <br> classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="">
+                    <div class="grid grid-flow-col gap-5 text-center">
+                        <div class="flex flex-col p-2 text-black rounded-box text-neutral-content">
+                          <span class="countdown font-mono text-4xl lg:text-6xl" >
+                            <span style="--value:15;"></span>
+                          </span>
+                          days
+                        </div> 
+                        <div class="flex flex-col p-2 text-black rounded-box text-neutral-content">
+                          <span class="countdown font-mono text-4xl lg:text-6xl">
+                            <span style="--value:10;"></span>
+                          </span>
+                          hours
+                        </div> 
+                        <div class="flex flex-col p-2 text-black rounded-box text-neutral-content">
+                          <span class="countdown font-mono text-4xl lg:text-6xl">
+                            <span style="--value:24;"></span>
+                          </span>
+                          min
+                        </div> 
+                        <div class="flex flex-col p-2 text-black rounded-box text-neutral-content">
+                          <span class="countdown font-mono text-4xl lg:text-6xl">
+                            <span style="--value:26;"></span>
+                          </span>
+                          sec
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="pt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 m-3 lg:m-0">
+                <!-- card 1  -->
+                <div class="card bg-base-100 border">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title border-b">12.90$ - 18.85$</h2>
+                      <p class="text-[#a8a29e]">Apples</p>
+                      <div class="">
+                        <i class="fa-solid fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star-half-stroke text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                      </div>
+                      <div class="card-actions">
+                        <button class="text-yellow-400 underline" onclick="apple.showModal()">Details</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 2  -->
+                <div class="card bg-base-100 border">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title border-b">12.90$ - 18.85$</h2>
+                      <p class="text-[#a8a29e]">Orange</p>
+                      <div class="">
+                        <i class="fa-solid fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star-half-stroke text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                      </div>
+                      <div class="card-actions">
+                        <button class="text-yellow-400 underline" onclick="orange.showModal()">Details</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 3  -->
+                <div class="card  bg-base-100 border">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title border-b">12.90$ - 18.85$</h2>
+                      <p class="text-[#a8a29e]">Red Dragon</p>
+                      <div class="">
+                        <i class="fa-solid fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star-half-stroke text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                      </div>
+                      <div class="card-actions">
+                        <button class="text-yellow-400 underline" onclick="red.showModal()">Details</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 4  -->
+                <div class="card bg-base-100 border">
+                    <figure class="px-10 pt-10">
+                      <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title border-b">12.90$ - 18.85$</h2>
+                      <p class="text-[#a8a29e]">Banana</p>
+                      <div class="">
+                        <i class="fa-solid fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star-half-stroke text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                      </div>
+                      <div class="card-actions">
+                        <button class="text-yellow-400 underline" onclick="banana.showModal()">Details</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <!-- model 1  -->
+                <dialog id="apple" class="modal text-center">
+                <form method="dialog" class="modal-box">
+                    <div class="flex justify-center h-40">
+                        <img class="" src="./images/fruit6.png" alt="">
+                    </div>
+                    <h3 class="font-bold text-lg pt-5">Apples</h3>
+                    <p class="py-4 text-[#a8a29e] text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="">
+                        <i class="fa-solid fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star-half-stroke text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                      </div>
+                <button class="btn">Close</button>
+                <button class="btn btn-error bg-[#ef4444] text-white lg:mt-5 capitalize">Buy Now</button>
+                </form>
+                </dialog>
+                <!-- model 2  -->
+                <dialog id="orange" class="modal text-center">
+                <form method="dialog" class="modal-box">
+                    <div class="flex justify-center h-40">
+                        <img class="" src="./images/fruit7.png" alt="">
+                    </div>
+                    <h3 class="font-bold text-lg pt-5">Orange</h3>
+                    <p class="py-4 text-[#a8a29e] text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="">
+                        <i class="fa-solid fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star-half-stroke text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                      </div>
+                <button class="btn">Close</button>
+                <button class="btn btn-error bg-[#ef4444] text-white lg:mt-5 capitalize">Buy Now</button>
+                </form>
+                </dialog>
+                <!-- model 3  -->
+                <dialog id="red" class="modal text-center">
+                <form method="dialog" class="modal-box">
+                    <div class="flex justify-center h-40">
+                        <img class="" src="./images/fruit8.png" alt="">
+                    </div>
+                    <h3 class="font-bold text-lg pt-5">Red Dragon</h3>
+                    <p class="py-4 text-[#a8a29e] text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="">
+                        <i class="fa-solid fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star-half-stroke text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                      </div>
+                <button class="btn">Close</button>
+                <button class="btn btn-error bg-[#ef4444] text-white lg:mt-5 capitalize">Buy Now</button>
+                </form>
+                </dialog>
+                <!-- model 4  -->
+                <dialog id="banana" class="modal text-center">
+                <form method="dialog" class="modal-box">
+                    <div class="flex justify-center h-40">
+                        <img class="" src="./images/fruit9.png" alt="">
+                    </div>
+                    <h3 class="font-bold text-lg pt-5">Banana</h3>
+                    <p class="py-4 text-[#a8a29e] text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="">
+                        <i class="fa-solid fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star-half-stroke text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                        <i class="fa-regular fa-star text-red-400"></i>
+                      </div>
+                <button class="btn">Close</button>
+                <button class="btn btn-error bg-[#ef4444] text-white lg:mt-5 capitalize">Buy Now</button>
+                </form>
+                </dialog>
+            </div>
+            <div class="flex justify-center pt-5">
+                <button class="btn btn-error bg-[#ef4444] text-white lg:mt-5 capitalize">Show All</button>
+            </div>
+        </section>
+        <!-- deal section design end  -->
     </main>
     <footer>
 
