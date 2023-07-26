@@ -15,11 +15,11 @@
         tailwind.config = {
           theme: {
             extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
+              backgroundImage: {
+                'banner-bg': "url('./images/banner1.png')",
+              },
+            },
+          },
         }
       </script>
 
@@ -28,8 +28,8 @@
 
     <!-- lato font google  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
 
     <style>
         .font-lato{
@@ -162,7 +162,7 @@
         <!-- banner bonus fruit section end  -->
 
         <!-- deal section design start  -->
-        <section class="max-w-screen-xl mx-auto my-10 lg:my-40">
+        <section class="max-w-screen-xl mx-auto my-10 lg:mt-40">
             <div class="flex flex-col lg:flex-row text-center lg:text-start justify-between ">
                 <div class="">
                     <h3 class="text-5xl font-extrabold">Deal of the day</h3>
@@ -362,6 +362,71 @@
             </div>
         </section>
         <!-- deal section design end  -->
+
+        <!-- team section design start  -->
+        <section class="max-w-screen-xl mx-3 lg:mx-auto my-10">
+          <div class="hero min-h-[690px] bg-banner-bg">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class=" text-neutral-content">
+              <div class="">
+                <div>
+                  <h1 class="mb-2 text-5xl font-black text-center">Meet the team section</h1>
+                <p class="text-[#eceae8] pb-5 font-medium text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of <br>  classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+              </div>
+              <div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20">
+                  <!-- member 1  -->
+                  <div class="text-center">
+                    <div class="flex justify-center">
+                      <img class="pb-4" src="./images/member1.png" alt="">
+                    </div>
+                    <h3 class="text-2xl font-bold">Awlad Hossain</h3>
+                    <p class="text-xs">Fruits Expert</p>
+                    <i class="fa-brands fa-facebook text-red-400"></i>
+                    <i class="fa-brands fa-twitter text-red-400"></i>
+                    <i class="fa-brands fa-linkedin text-red-400"></i>
+                  </div>
+                  <!-- member 2  -->
+                  <div class="text-center">
+                    <div class="flex justify-center">
+                      <img class="pb-4" src="./images/member2.png" alt="">
+                    </div>
+                    <h3 class="text-2xl font-bold">Safia Chowdhury</h3>
+                    <p class="text-xs">Fruits Expert</p>
+                    <i class="fa-brands fa-facebook text-red-400"></i>
+                    <i class="fa-brands fa-twitter text-red-400"></i>
+                    <i class="fa-brands fa-linkedin text-red-400"></i>
+                  </div>
+                  <!-- member 3  -->
+                  <div class="text-center">
+                    <div class="flex justify-center">
+                      <img class="pb-4" src="./images/member3.png" alt="">
+                    </div>
+                    <h3 class="text-2xl font-bold">Rokib Hossain</h3>
+                    <p class="text-xs">Fruits Expert</p>
+                    <i class="fa-brands fa-facebook text-red-400"></i>
+                    <i class="fa-brands fa-twitter text-red-400"></i>
+                    <i class="fa-brands fa-linkedin text-red-400"></i>
+                  </div>
+                  <!-- member 4  -->
+                  <div class="text-center">
+                    <div class="flex justify-center">
+                      <img class="pb-4" src="./images/member4.png" alt="">
+                    </div>
+                    <h3 class="text-2xl font-bold">Chaity</h3>
+                    <p class="text-xs">Fruits Expert</p>
+                    <i class="fa-brands fa-facebook text-red-400"></i>
+                    <i class="fa-brands fa-twitter text-red-400"></i>
+                    <i class="fa-brands fa-linkedin text-red-400"></i>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        <!-- team section design end  -->
     </main>
     <footer>
 
